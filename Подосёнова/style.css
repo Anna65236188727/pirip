@@ -1,144 +1,215 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-body{
+body {
     max-width: 1500px;
     margin-left: auto;
     margin-right: auto;
     display: block;
 }
 
-header{
+#header {
     background: url(img/slaider.png) no-repeat center;
     height: 500px;
 }
-.nav{
+
+.nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-left: 20%;
     margin-right: 20%;
 }
-.menu{
+
+.menu {
     font-family: 'Times New Roman', Times, serif;
     font-size: 12px;
     color: #000000;
-    transition: all 3s ease-in-out;
+    transition: .2s ease-in-out;
     text-decoration: none;
     cursor: pointer;
 }
-.menu:hover{
-    text-decoration: underline;
+
+.menu:hover {
+    border-bottom: 4px solid #000000;
 }
-.slaider{
+
+.slaider {
     width: 100%;
 }
 
-.about{
+.about {
     display: flex;
     justify-content: space-between;
     height: 500px;
 }
-.right-site{
+
+.right-site {
     background: url(img/about.png);
     width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.text{
+
+.text {
     font-size: 36px;
     font-weight: 600;
+    border: 8px solid #000000;
+    line-height: 50px;
+    width: 260px;
+    height: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.left-site{
+.left-site {
     width: 50%;
-    background-color: #ffffff;
+    background-color: #f0e4d698;
     padding: 100px;
-    
+
 }
-.about-img{
+
+.about-img {
     margin-left: 45%;
     margin-bottom: 50px;
 }
-.about-text1{
+
+.about-text1 {
     font-size: 18px;
     text-align: center;
     margin-bottom: 50px;
 }
-.about-text2{
+
+.about-text2 {
     font-size: 16px;
 }
 
-.photo{
+.photo {
     display: flex;
     justify-content: space-around;
 }
 
-.foto{
+.foto {
     width: 250px;
     height: 250px;
     display: flex;
     justify-content: space-around;
-}
-.foto1{
-    background: url(img/photo1.png);
-}
-.foto2{
-    background: url(img/photo2.png);
-}
-.foto3{
-    background: url(img/photo3.png);
-}
-.foto4{
-    background: url(img/photo4.png);
-}
-.foto5{
-    background: url(img/photo5.png);
-}
-.foto6{
-    background: url(img/photo6.png);
-}
-.foto7{
-    background: url(img/photo7.png);
-}
-.foto8{
-    background: url(img/photo8.png);
-}
-.foto9{
-    background: url(img/photo9.png);
-}
-.foto10{
-    background: url(img/photo10.png);
-}
-.foto11{
-    background: url(img/photo11.png);
-}
-.foto12{
-    background: url(img/photo12.png);
+    transition: 0.2s ease-in;
 }
 
-.testimonial{
+.foto:hover{
+    filter: grayscale(0.6);
+}
+.icons .btn-use{
+    opacity: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 55px;
+    width: 100%;
+    transition: 0.2s ease-in;
+}
+.icons .btn-use:hover{
+    opacity: 1;
+}
+.icons .lypa{
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.2s ease-in;
+}
+.lypa {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 0.2s ease-in;
+}
+.icons .lypa:hover{
+    opacity: 1;
+
+}
+.icon{
+    width: 50px;
+    height: 50px;
+}
+
+.foto1{
+    background-image: url(img/photo1.png);
+}
+
+.foto2 {
+    background-image: url(img/photo2.png);
+}
+
+.foto3 {
+    background-image: url(img/photo3.png);
+}
+
+.foto4 {
+    background-image: url(img/photo4.png);
+}
+
+.foto5 {
+    background-image: url(img/photo5.png);
+}
+
+.foto6 {
+    background-image: url(img/photo6.png);
+}
+
+.foto7 {
+    background-image: url(img/photo7.png);
+}
+
+.foto8 {
+    background-image: url(img/photo8.png);
+}
+
+.foto9 {
+    background-image: url(img/photo9.png);
+}
+
+.foto10 {
+    background-image: url(img/photo10.png);
+}
+
+.foto11 {
+    background-image: url(img/photo11.png);
+}
+
+.foto12 {
+    background-image: url(img/photo12.png);
+}
+
+
+.testimonial {
     background: url(img/fon.png);
     height: 367px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.text-testimonial{
+
+.text-testimonial {
     color: #ffffff;
     font-size: 24px;
     text-align: center;
     width: 50%;
 }
-.kav{
+
+.kav {
     font-size: 150px;
     color: #fcfcfc;
 }
