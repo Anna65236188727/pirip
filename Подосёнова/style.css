@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+header{
+    background: url(img/slaider.png) no-repeat center;
+    height: 500px;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.menu{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    color: #000000;
+    transition: all 3s ease-in-out;
+    text-decoration: none;
+    cursor: pointer;
+}
+.menu:hover{
+    text-decoration: underline;
+}
+.slaider{
+    width: 100%;
+}
+
+.about{
+    display: flex;
+    justify-content: space-between;
+    height: 500px;
+}
+.right-site{
+    background: url(img/about.png);
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.left-site{
+    width: 50%;
+    background-color: #ffffff;
+    padding: 100px;
+    
+}
+.about-img{
+    margin-left: 45%;
+    margin-bottom: 50px;
+}
+.about-text1{
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.about-text2{
+    font-size: 16px;
+}
+
+.photo{
+    display: flex;
+    justify-content: space-around;
+}
+
+.foto{
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+}
+.foto1{
+    background: url(img/photo1.png);
+}
+.foto2{
+    background: url(img/photo2.png);
+}
+.foto3{
+    background: url(img/photo3.png);
+}
+.foto4{
+    background: url(img/photo4.png);
+}
+.foto5{
+    background: url(img/photo5.png);
+}
+.foto6{
+    background: url(img/photo6.png);
+}
+.foto7{
+    background: url(img/photo7.png);
+}
+.foto8{
+    background: url(img/photo8.png);
+}
+.foto9{
+    background: url(img/photo9.png);
+}
+.foto10{
+    background: url(img/photo10.png);
+}
+.foto11{
+    background: url(img/photo11.png);
+}
+.foto12{
+    background: url(img/photo12.png);
+}
+
+.testimonial{
+    background: url(img/fon.png);
+    height: 367px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-testimonial{
+    color: #ffffff;
+    font-size: 24px;
+    text-align: center;
+    width: 50%;
+}
+.kav{
+    font-size: 150px;
+    color: #fcfcfc;
+}
